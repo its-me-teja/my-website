@@ -1,0 +1,25 @@
+h5{
+    animation-duration: 8s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+}
+
+@keyframes slidein {
+  0% {
+    margin-left: 1px;
+  }
+
+  100% {
+    margin-left: 300px;
+  }
+}
+.top-cloud{
+  animation-duration: 8s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+}
+.bottom-cloud{
+  animation-duration: 8s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+}
